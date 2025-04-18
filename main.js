@@ -381,7 +381,7 @@ function generateName() {
       'red',
       true
     );
-    newAI.name = generateName(); // ✅ this works
+    newAI.name = generateName(); 
     enemies.push(newAI);
   }
   
